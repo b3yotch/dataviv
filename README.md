@@ -73,8 +73,6 @@ plotly==5.18.0
 google-generativeai==0.3.2
 python-dotenv==1.0.0
 jinja2==3.1.2
-
-
 ## Usage
 Uploading a Dataset
 Prepare Your Dataset
