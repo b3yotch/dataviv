@@ -49,15 +49,18 @@ A comprehensive web application for uploading, analyzing, and exploring the Calt
 git clone <your-repo>
 cd caltech101-explorer
 python -m venv venv
-venv\Scripts\activate  # Windows
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
 pip install -r requirements.txt
 
-2️⃣ Configure API Key
+## Configure API Key
 Create a .env file:
 
 
 GOOGLE_API_KEY=your_gemini_api_key_here
-3️⃣ Run Application
+## Run Application
 
 # Terminal 1 - FastAPI Backend
 python -m uvicorn app.main:app --reload --port 8000
